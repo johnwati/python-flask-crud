@@ -6,7 +6,7 @@
 # echo "=============Commit Files to Repo========="
 #  git push --set-upstream origin master
 # git push
-
+bannerColor 'Installing CRUD.' "blue" "*"
 # Display unstaged files
  echo "==========Display unstaged files============"
 git status
@@ -23,7 +23,7 @@ if [ "$(git status --porcelain)" ]; then
         # else push all commited and staged files to remote repo
     else
         # git push
-        echo "***********Nothing to commit, working tree clean*****************"
+        echo "*********** Nothing to commit, working tree clean *****************"
         
     fi
     #Echo message if there is no files to commit, stage or push
