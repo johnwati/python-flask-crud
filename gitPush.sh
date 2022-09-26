@@ -22,8 +22,8 @@ if [ "$(git status --porcelain)" ]; then
         echo "****************Files pushed to GitHub****************"
         # else push all commited and staged files to remote repo
     else
-        git push
-        echo "***********Files pushed to GitHub*****************"
+        # git push
+        echo "***********Nothing to commit, working tree clean*****************"
         
     fi
     #Echo message if there is no files to commit, stage or push
